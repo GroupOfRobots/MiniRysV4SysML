@@ -15,6 +15,10 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_2GCJIFGLEemSWJAu3jK8hw" name="Receptory"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_mOvq4FGMEemSWJAu3jK8hw" name="Efektory"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Pc84oFGNEemSWJAu3jK8hw" name="Jednostka sterująca"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lbrpgFPtEemHCtGeJQIi8g" name="Bezawaryjność"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PlmfUFPzEemHCtGeJQIi8g" name="Łatwość powielania"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5qF00FPzEemHCtGeJQIi8g" name="Szybka zmiana źródła zasilania"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RPLPwFP0EemHCtGeJQIi8g" name="Tworzenie aplikacji"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wKCeEFGGEemU3cvsqyZ-Sw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wKH9oFGGEemU3cvsqyZ-Sw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -84,4 +88,8 @@
   <Requirements:Requirement xmi:id="_2GFMcFGLEemSWJAu3jK8hw" base_Class="_2GCJIFGLEemSWJAu3jK8hw" text="Robot posiada czujniki odległości, czujnik temperatury, kamerę RGB, pomiar napięcia baterii"/>
   <Requirements:Requirement xmi:id="_mOz8UFGMEemSWJAu3jK8hw" base_Class="_mOvq4FGMEemSWJAu3jK8hw" text="Robot posiada napęd różnicowy&#xA;"/>
   <Requirements:Requirement xmi:id="_PdGpoFGNEemSWJAu3jK8hw" base_Class="_Pc84oFGNEemSWJAu3jK8hw" text="Robot posiada wydajny komputer sterujący z systemem operacyjnym Linux"/>
+  <Requirements:Requirement xmi:id="_lcC14FPtEemHCtGeJQIi8g" base_Class="_lbrpgFPtEemHCtGeJQIi8g" text="Robot nie posiada szybko zużywających się lub łatwych do uszkodzeniakomponentów"/>
+  <Requirements:Requirement xmi:id="_PlubIFPzEemHCtGeJQIi8g" base_Class="_PlmfUFPzEemHCtGeJQIi8g" text="Montaż robota nie jest skomplikowany, oraz mozliwe jest stosunkowo szybkie zdobycie komponentów do jego budowy"/>
+  <Requirements:Requirement xmi:id="_5qMigFPzEemHCtGeJQIi8g" base_Class="_5qF00FPzEemHCtGeJQIi8g" text="Robot może szybko zostać przywrócony do działania po rozładowaniu baterii dzięki możliwości jej szybkiej wymiany. "/>
+  <Requirements:Requirement xmi:id="_RPQIQFP0EemHCtGeJQIi8g" base_Class="_RPLPwFP0EemHCtGeJQIi8g" text="Robot posiada oprogramowanie umożliwiające szybkie tworzenie aplikacji użytkowych bez konieczności dokonywania zmian w bibliotekach sterujących funkcjami robota"/>
 </xmi:XMI>
