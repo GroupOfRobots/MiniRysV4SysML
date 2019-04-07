@@ -19,6 +19,16 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_PlmfUFPzEemHCtGeJQIi8g" name="Łatwość powielania"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_5qF00FPzEemHCtGeJQIi8g" name="Szybka zmiana źródła zasilania"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_RPLPwFP0EemHCtGeJQIi8g" name="Tworzenie aplikacji"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_LOLEEFktEemmrejSdjcB8w" name="Satisfy25" client="_fwLzYFGJEemSWJAu3jK8hw" supplier="_FK060FGIEemSWJAu3jK8hw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_NE1DsFktEemmrejSdjcB8w" name="Satisfy26" client="_qbLWcFGJEemSWJAu3jK8hw" supplier="_FK060FGIEemSWJAu3jK8hw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ORPzgFktEemmrejSdjcB8w" name="Satisfy27" client="_lbrpgFPtEemHCtGeJQIi8g" supplier="_1GMusFGJEemSWJAu3jK8hw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_QIGAYFktEemmrejSdjcB8w" name="Satisfy28" client="_wDqJQFGGEemU3cvsqyZ-Sw" supplier="_1GMusFGJEemSWJAu3jK8hw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_Vc1QcFktEemmrejSdjcB8w" name="Satisfy29" client="_RPLPwFP0EemHCtGeJQIi8g" supplier="_1GMusFGJEemSWJAu3jK8hw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_XIm1wFktEemmrejSdjcB8w" name="Satisfy30" client="_5qF00FPzEemHCtGeJQIi8g" supplier="_lbrpgFPtEemHCtGeJQIi8g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_elCyIFktEemmrejSdjcB8w" name="Satisfy31" client="_CvdZsFGKEemSWJAu3jK8hw" supplier="_PlmfUFPzEemHCtGeJQIi8g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_flwBMFktEemmrejSdjcB8w" name="Satisfy32" client="_mOvq4FGMEemSWJAu3jK8hw" supplier="_RPLPwFP0EemHCtGeJQIi8g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ieXNEFktEemmrejSdjcB8w" name="Satisfy33" client="_Pc84oFGNEemSWJAu3jK8hw" supplier="_RPLPwFP0EemHCtGeJQIi8g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ke46YFktEemmrejSdjcB8w" name="Satisfy34" client="_2GCJIFGLEemSWJAu3jK8hw" supplier="_wDqJQFGGEemU3cvsqyZ-Sw"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wKCeEFGGEemU3cvsqyZ-Sw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wKH9oFGGEemU3cvsqyZ-Sw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -92,4 +102,14 @@
   <Requirements:Requirement xmi:id="_PlubIFPzEemHCtGeJQIi8g" base_Class="_PlmfUFPzEemHCtGeJQIi8g" text="Montaż robota nie jest skomplikowany, oraz mozliwe jest stosunkowo szybkie zdobycie komponentów do jego budowy"/>
   <Requirements:Requirement xmi:id="_5qMigFPzEemHCtGeJQIi8g" base_Class="_5qF00FPzEemHCtGeJQIi8g" text="Robot może szybko zostać przywrócony do działania po rozładowaniu baterii dzięki możliwości jej szybkiej wymiany. "/>
   <Requirements:Requirement xmi:id="_RPQIQFP0EemHCtGeJQIi8g" base_Class="_RPLPwFP0EemHCtGeJQIi8g" text="Robot posiada oprogramowanie umożliwiające szybkie tworzenie aplikacji użytkowych bez konieczności dokonywania zmian w bibliotekach sterujących funkcjami robota"/>
+  <Requirements:Satisfy xmi:id="_LOOHYFktEemmrejSdjcB8w" base_DirectedRelationship="_LOLEEFktEemmrejSdjcB8w" base_Abstraction="_LOLEEFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_NE58MFktEemmrejSdjcB8w" base_DirectedRelationship="_NE1DsFktEemmrejSdjcB8w" base_Abstraction="_NE1DsFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_ORS20FktEemmrejSdjcB8w" base_DirectedRelationship="_ORPzgFktEemmrejSdjcB8w" base_Abstraction="_ORPzgFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_QIKR0FktEemmrejSdjcB8w" base_DirectedRelationship="_QIGAYFktEemmrejSdjcB8w" base_Abstraction="_QIGAYFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_Vc3ssFktEemmrejSdjcB8w" base_DirectedRelationship="_Vc1QcFktEemmrejSdjcB8w" base_Abstraction="_Vc1QcFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_XIuKgFktEemmrejSdjcB8w" base_DirectedRelationship="_XIm1wFktEemmrejSdjcB8w" base_Abstraction="_XIm1wFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_elFOYFktEemmrejSdjcB8w" base_DirectedRelationship="_elCyIFktEemmrejSdjcB8w" base_Abstraction="_elCyIFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_flzEgFktEemmrejSdjcB8w" base_DirectedRelationship="_flwBMFktEemmrejSdjcB8w" base_Abstraction="_flwBMFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_ied6wFktEemmrejSdjcB8w" base_DirectedRelationship="_ieXNEFktEemmrejSdjcB8w" base_Abstraction="_ieXNEFktEemmrejSdjcB8w"/>
+  <Requirements:Satisfy xmi:id="_kfA2MFktEemmrejSdjcB8w" base_DirectedRelationship="_ke46YFktEemmrejSdjcB8w" base_Abstraction="_ke46YFktEemmrejSdjcB8w"/>
 </xmi:XMI>
